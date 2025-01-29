@@ -1,4 +1,4 @@
-@import "detail.css";
+@import "/styles/details.css";
 @import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
 
 /*Typography
@@ -14,8 +14,22 @@ textarea {
 	line-height: 1.5;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
+  margin-left: 13px;
+}
+h3 {
+	font-family: "Patua One", serif;
+  letter-spacing: 2px;
+  margin-right: 20px;
+}
+
+.assignments {
+	font-size: 20px;
+}
+
+.test {
+	margin-left: 21px;
 }
 

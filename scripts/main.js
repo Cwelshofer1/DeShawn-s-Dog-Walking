@@ -18,12 +18,15 @@ const applicationHTML = `
     </section>
     <section class="detail--column list details__cities">
         <h2>Pets</h2>
+        ${RegisteredPets()}
     </section>
 </article>
 
 <article class="assignments">
-    <h2>Current Assignments</h2>
+    <h3 class="assignment">Current Assignments</h3>
+    <div class="test">
     ${Assignments()}
+    </div>
 </article>
 `
 
